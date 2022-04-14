@@ -1,0 +1,30 @@
+/*** Texto ****/
+.texto-preto {
+    color: var(--preto);
+}
+
+.texto-branco {
+    color: var(--branco);
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.medio-escuro {
+    font-weight: 500;
+}
+
+/* backgroud */
+
+.bg-escuro {
+    background-color: var(--bg-escuro);
+}
+
+.noto{
+    font-family: 'Noto Serif', serif;
+}
+
+.noto-italic{
+    font-style: italic;
+}
