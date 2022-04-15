@@ -6,3 +6,21 @@
     padding: 10px;
 }
 
+.social-midias-modal{
+    width: 65%;
+    margin-bottom: -1em;
+}
+.social-midias-modal a {
+    transition: 0.5s;
+}
+
+.social-midias-modal a:hover{
+    transform: scale(1.2);
+}
+
+.social-midias-modal a i{
+    font-size: 1.3em !important;
+}
+
+
+

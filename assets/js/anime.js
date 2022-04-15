@@ -21,6 +21,5 @@ function animeImg(){
         }
     })
 }
-
 animeItem();
 animeImg();

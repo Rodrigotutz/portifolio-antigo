@@ -1,0 +1,5 @@
+@media(max-width: 600px){
+    .divider svg{
+        height: 300px !important;
+    }
+}

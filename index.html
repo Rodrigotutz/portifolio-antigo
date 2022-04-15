@@ -23,6 +23,7 @@
         <meta name="robots" content="index">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/animate.css">
         <link rel="stylesheet" href="/assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/colors.css">
         <link rel="stylesheet" href="/assets/css/default.css">
@@ -31,17 +32,15 @@
         <link rel="stylesheet" href="/assets/css/responsive.css">
         <link rel="stylesheet" href="/assets/css/classes.css">
         <link rel="stylesheet" href="/assets/css/navbar.css">
-        <link rel="stylesheet" href="/assets/css/animate.css">
+  
         
     </head>
     <body>
         <nav class="navbar navbar-light bg-transparent sticky-top">
-            <div class="container">
-                <a href="/" class="navbar brand mb-0 h4 text-dark fw-bolder">Rodrigo Tutz</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#modalNav">
-                    <span class="navbar-toggler-icon"></span>
+            <div class="container-fluid justify-content-end">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="modal" data-bs-target="#modalNav">
+                   Menu <span class="navbar-toggler-icon ms-1"></span>
                 </button>
-                        
             </div>
         </nav>
                 
@@ -55,16 +54,23 @@
                     <div class="modal-body text-center">
                         <img src="/assets/img/perfil.jpg" style="border-radius: 50%;" class="w-50" alt="Rodrigo Antunes">
                         <h4>Rodrigo TUTZ</h4>
-                        <a href="/assets/docs/Rodrigo Antunes.pdf" class="btn btn-dark mb-3" download>Baixar CV</a>
                         <div class="list-group text-center">
                             <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#home" role="tab" aria-controls="list-home"><i class="bi bi-house-fill"></i> Inicio</a>
                             <a class="list-group-item list-group-item-action" id="list-about-list" data-bs-toggle="list" href="#about" role="tab" aria-controls="about"><i class="bi bi-file-person-fill"></i> Sobre</a>
-                            <a class="list-group-item list-group-item-action" id="list-works-list" data-bs-toggle="list" href="#works" role="tab" aria-controls="works"><i class="bi bi-hammer"></i> Trabalhos</a>
+                            <a class="list-group-item list-group-item-action" id="list-works-list" data-bs-toggle="list" href="#skills" role="tab" aria-controls="skills"><i class="bi bi-bookmark-star-fill"></i> Habilidades</a>
                             <a class="list-group-item list-group-item-action" id="list-contact-list" data-bs-toggle="list" href="#contact" role="tab" aria-controls="contact"><i class="bi bi-telephone-fill"></i> Contato</a>
                           </div>
+
+                          
                     </div>
                     <div class="modal-footer text-center">
                         <footer class="container-fluid">
+                            <div class="container social-midias-modal d-flex justify-content-around">
+                                <a href="#" class="text-dark" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/Rodrigotutz" class="text-dark" target="_blank"><i class="bi bi-github"></i></a>
+                                <a href="https://www.instagram.com/rodrigo_tutz" class="text-dark" target="_blank"><i class="bi bi-instagram"></i></a>
+                                <a href="#" class="text-dark" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            </div>
                             <span> <br><a href="https://github.com/Rodrigotutz" class="text-dark h6" target="_blank">&copy; Copyright 2022 <br> Rodrigo TUTZ</a> </span> <br>
                             <small>Todos dos direitos reservados</small>
                         </footer>
@@ -73,20 +79,27 @@
             </div>
         </div>
 
-        <main class="container" id="apresentacao">
+        <main class="container" id="home">
             <div class="row mt-5">
                 <div class="anime-item col-md-6 col-sm-12 text-center mt-5">
-                    <h1 class="display-2 noto noto-italic ola">Olá!</h1>
-                    <h1 class="display-4 noto noto-italic suadacao">Eu Sou o Tutz!</h1>
-                    <h5 class="noto-italic suadacao">Desenvolvedor Web</h5>
-                    <a href="/assets/docs/Rodrigo Antunes.pdf" class="btn btn-dark mt-3 noto-italic suadacao" download>Baixar CV</a>
+                    <h1 class="display-2 poppins ola fw-bold">Olá!</h1>
+                    <h1 class="display-4 poppins fw-bold suadacao">Eu Sou o Tutz!</h1>
+                    <h5 class="noto-italic suadacao fw-bold">Desenvolvedor Web</h5>
+                    <a href="/assets/docs/Rodrigo Antunes.pdf" class="btn btn-dark mt-3 poppins suadacao fw-bold" download>Baixar CV</a>
                 </div>
                 <div class="anime-img col-md-6 d-none d-md-block mt-2 text-center">
-                    <img src="/assets/img/design.jpg" class="w-100" style="border-radius: 50%;" alt="Rodrigo">
+                    <img src="/assets/img/anime-img.svg" class="w-100" style="border-radius: 50%;" alt="Rodrigo">
                 </div>
             </div>
         </main>
 
+        <div class="divider mt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path class="wave-1" fill="#273036" fill-opacity="1" d="M0,224L30,208C60,192,120,160,180,165.3C240,171,300,213,360,224C420,235,480,213,540,176C600,139,660,85,720,85.3C780,85,840,139,900,170.7C960,203,1020,213,1080,224C1140,235,1200,245,1260,224C1320,203,1380,149,1410,122.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                <path class="wave-2" fill="#273036" fill-opacity="0.75" d="M0,224L30,192C60,160,120,96,180,64C240,32,300,32,360,58.7C420,85,480,139,540,154.7C600,171,660,149,720,133.3C780,117,840,107,900,112C960,117,1020,139,1080,154.7C1140,171,1200,181,1260,197.3C1320,213,1380,235,1410,245.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                <path class="wave-3" fill="#273036" fill-opacity="0.50" d="M0,160L30,144C60,128,120,96,180,117.3C240,139,300,213,360,208C420,203,480,117,540,122.7C600,128,660,224,720,261.3C780,299,840,277,900,272C960,267,1020,277,1080,250.7C1140,224,1200,160,1260,154.7C1320,149,1380,203,1410,229.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+            </svg>
+        </div>
         <!--<footer id="footer-content" class="texto-preto bg-escuro texto-branco">
             <span class="medio-escuro">&copy; Copyright 2022 - Empresa Exemplo</span> <br>
             <a href="https://github.com/Rodrigotutz" class="texto-branco medio-escuro" target="_blank">Desenvolvido por: Rodrigo Antunes</a>
