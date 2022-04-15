@@ -1,0 +1,17 @@
+.anime-item{
+    opacity: 0;
+    transform: translate3d(-150px,0,0);
+    transition: 1.2s ;
+}
+
+.anime-img{
+    opacity: 0;
+    transform: translate3d(150px,0,0);
+    transition: 1.2s ;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
