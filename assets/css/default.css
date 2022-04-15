@@ -10,6 +10,16 @@ html, body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #273036;
+    border-radius: 25px;
+}
+
 a {
     text-decoration: none;
 }

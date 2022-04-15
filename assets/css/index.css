@@ -31,7 +31,7 @@
 }
 
 .wave-3{
-    animation: moveWave3 3s ease-in-out infinite alternate;
+    animation: moveWave3 5s ease-in-out infinite alternate;
 }
 
 @keyframes moveWave3{
