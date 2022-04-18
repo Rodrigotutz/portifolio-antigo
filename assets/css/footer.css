@@ -1,7 +1,7 @@
 #footer-content{
     width: 100%;
     text-align: center;
-    background-color: #273036;
+    padding: 2rem !important;
 }
 #footer-content a {
     transition: 0.5s;
