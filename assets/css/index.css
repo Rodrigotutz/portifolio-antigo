@@ -39,3 +39,24 @@
         transform: translateX(-300px);
     }
 }
+
+/** SOBRE **/
+
+.sobre-section{
+    width: 100%;
+    background-color: #273036;
+    margin-top: -15px;
+    padding-bottom: 20rem;
+}
+
+.skills{
+    margin-top: -13rem;
+}
+
+.card {
+    border-radius: 25px !important;
+}
+
+
+
+

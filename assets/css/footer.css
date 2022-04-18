@@ -1,9 +1,13 @@
 #footer-content{
     width: 100%;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
+    background-color: #273036;
+}
+#footer-content a {
+    transition: 0.5s;
+}
+#footer-content a:hover{
+    color: #868686;
 }
 
 .social-midias-modal{

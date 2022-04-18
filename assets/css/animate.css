@@ -9,10 +9,32 @@
     transform: translate3d(150px,0,0);
     transition: 1.2s ;
 }
+.sobre-content{
+    opacity: 0;
+    transform: translate3d(-300px, 0 ,0);
+    transition: 0.8s;
+}
+
+.card-item-1{
+    opacity: 0;
+    transform: translate3d(-300px, 0, 0 );
+    transition: 1s;
+}
+
+.card-item-2{
+    opacity: 0;
+    transition: 2s;
+}
+
+.card-item-3{
+    opacity: 0;
+    transform: translate3d(300px, 0, 0);
+    transition: 1s;
+}
+
 .anime-start{
     opacity: 1;
     transform: translate3d(0,0,0);
 }
-
 
 
