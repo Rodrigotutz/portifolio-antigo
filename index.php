@@ -26,8 +26,10 @@
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/minify.css">
+        <link rel="stylesheet" href="/assets/css/index.css">
     </head>
     <body onload="loading()">
+
         <div class="pre-load">
             <div class="pre">
                 <h4 class="text-white">Aguarde, construindo o site...</h4>
@@ -173,33 +175,30 @@
                 <div class="row">
                     <div class="col-md-4 offset-md-7 text-center">
                         <fieldset class="mt-5 text-white fw-bold">
-                            <legend>Preencha todos os campos!</legend>
-                            <div class="mb-4 text-start">
-                                <small><span class="text-danger">*</span> Campos obrigatórios</small>
-                            </div>
+                            <legend class="mb-5">Envie uma mensagem!</legend>
                             <form action="/source/App/components/email.php" method="POST">
                                 <div class="mb-3">
-                                    <label for="nome" class="form-label"><span class="text-danger">*</span> Insira seu nome:</label>
+                                    <label for="nome" class="form-label"> Insira seu nome:</label>
                                     <input type="text" name="nome" id="nome" class="form-control text-center" required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="email" class="form-label"><span class="text-danger">*</span> Insira seu email:</label>
+                                    <label for="email" class="form-label"> Insira seu email:</label>
                                     <input type="email" name="email" id="email" class="form-control text-center" required>
                                 </div>
                                 
                                 <div class="mb-3">
-                                    <label for="telefone" class="form-label"><span class="text-danger">*</span> Insira seu telefone:</label>
+                                    <label for="telefone" class="form-label"> Insira seu telefone:</label>
                                     <input type="text" name="telefone" id="telefone" class="form-control text-center" required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="mensagem" class="form-label"><span class="text-danger">*</span> Insira sua mensagem:</label>
+                                    <label for="mensagem" class="form-label"> Insira sua mensagem:</label>
                                     <textarea name="mensagem" id="mensagem" class="form-control text-center" style="height: 200px;" required></textarea>
                                 </div>
 
                                 <div class="text-center">
-                                    <button name="acao" type="submit" class="btn btn-dark fw-bold">Enviar</button>
+                                    <button name="acao" type="submit" class="btn btn-dark fw-bold">Enviar <i class="bi bi-send-fill"></i></button>
                                 </div>
                             </form>
                         </fieldset>
