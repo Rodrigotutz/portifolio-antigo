@@ -1,3 +1,7 @@
+function loading(){
+    document.getElementsByClassName("pre-load")[0].style.display = "none"
+}
+
 var maskBehavior = function (val) {
     return val.replace(/\D/g, '').length === 11 ? '(00) 00000 - 0000' : '(00) 0000 - 00009';
    },
@@ -12,6 +16,8 @@ var maskBehavior = function (val) {
 const mensagemSucesso = document.getElementById("mensagem-sucesso")
 const closeMensagemSucesso = document.getElementById("close-mensagem-sucesso")
 
-closeMensagemSucesso.addEventListener("click", function(){
-    mensagemSucesso.style.display = "none"
-})
+if(mensagemSucesso){
+    closeMensagemSucesso.addEventListener("click", function(){
+        mensagemSucesso.style.display = "none"
+    })
+}

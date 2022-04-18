@@ -22,6 +22,7 @@
         <!--ROBOTS-->
         <meta name="robots" content="index">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./assets/css/preload.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/animate.css">
@@ -33,10 +34,15 @@
         <link rel="stylesheet" href="./assets/css/responsive.css">
         <link rel="stylesheet" href="./assets/css/classes.css">
         <link rel="stylesheet" href="./assets/css/navbar.css">
-  
-        
     </head>
-    <body>
+    <body onload="loading()">
+        <div class="pre-load">
+            <div class="pre">
+                <h4 class="text-white">Aguarde, construindo o site...</h4>
+                <img src="/assets/img/carregando.gif" alt="">
+            </div>
+        </div>
+
         <nav class="navbar navbar-light bg-transparent fixed-top">
             <div class="container-fluid justify-content-end">
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="modal" data-bs-target="#modalNav">
@@ -211,14 +217,14 @@
         </section>
 
         <?php if(isset($_GET['sucesso']) && $_GET["sucesso"] === "mensagem") {?>
-        <div class="mensagem-sucesso" id="mensagem-sucesso">
-            <div class="mensagem-conteudo">
-                <h4 class="text-success">Mensagem enviada com sucesso!</h4>
-                <p class="mt-3">Estou muito feliz que tenha me enviado uma mensagem!!!</p>
-                <small>Em breve retornarei o seu contato!</small> <br>
-                <button id="close-mensagem-sucesso" class="btn btn-secondary mt-3">Fechar</button>
+            <div class="mensagem-sucesso" id="mensagem-sucesso">
+                <div class="mensagem-conteudo">
+                    <h4 class="text-success">Mensagem enviada com sucesso!</h4>
+                    <p class="mt-3">Estou muito feliz que tenha me enviado uma mensagem!!!</p>
+                    <small>Em breve retornarei o seu contato!</small> <br>
+                    <button id="close-mensagem-sucesso" class="btn btn-secondary mt-3">Fechar</button>
+                </div>
             </div>
-        </div>
         <?php } ?>  
 
         <footer id="footer-content" class="texto-dark mt-5">
