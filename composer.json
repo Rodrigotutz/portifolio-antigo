@@ -1,0 +1,27 @@
+{
+    "name": "rodrigotutz/padraosistema",
+    "description": "Portifólio Rodrigo Antunes",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rodrigo Antunes Rufino",
+            "email": "rodrigoantunestutz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "*"
+    }
+}
