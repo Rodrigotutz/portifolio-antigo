@@ -22,18 +22,10 @@
         <!--ROBOTS-->
         <meta name="robots" content="index">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/preload.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/css/animate.css">
         <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="stylesheet" href="./assets/css/colors.css">
-        <link rel="stylesheet" href="./assets/css/default.css">
-        <link rel="stylesheet" href="./assets/css/index.css">
-        <link rel="stylesheet" href="./assets/css/footer.css">
-        <link rel="stylesheet" href="./assets/css/responsive.css">
-        <link rel="stylesheet" href="./assets/css/classes.css">
-        <link rel="stylesheet" href="./assets/css/navbar.css">
+        <link rel="stylesheet" href="/assets/css/minify.css">
     </head>
     <body onload="loading()">
         <div class="pre-load">
@@ -237,7 +229,6 @@
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/jquery-3.6.0.min.js"></script>
         <script src="./assets/js/jquery.mask.min.js"></script>
-        <script src="./assets/js/index.js"></script>
-        <script src="./assets/js/anime.js"></script>
+        <script src="/assets/js/minify.js"></script>
     </body>
 </html>
