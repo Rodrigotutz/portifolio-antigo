@@ -8,6 +8,7 @@ class ComposerStaticInit5dab72f5fa59b56931ea1f02c9489c85
 {
     public static $files = array (
         'bda1852e123c2b1513779939e182b8ca' => __DIR__ . '/../..' . '/source/Config.php',
+        'afbc643165bed459ef42ce7336432db0' => __DIR__ . '/../..' . '/source/Minify.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -19,6 +20,11 @@ class ComposerStaticInit5dab72f5fa59b56931ea1f02c9489c85
         array (
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'M' => 
+        array (
+            'MatthiasMullie\\PathConverter\\' => 29,
+            'MatthiasMullie\\Minify\\' => 22,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -29,6 +35,14 @@ class ComposerStaticInit5dab72f5fa59b56931ea1f02c9489c85
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'MatthiasMullie\\PathConverter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/path-converter/src',
+        ),
+        'MatthiasMullie\\Minify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
         ),
     );
 

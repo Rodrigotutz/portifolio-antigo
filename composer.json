@@ -18,10 +18,12 @@
             "Source\\": "source/"
         },
         "files": [
-            "source/Config.php"
+            "source/Config.php",
+            "source/Minify.php"
         ]
     },
     "require": {
-        "phpmailer/phpmailer": "*"
+        "phpmailer/phpmailer": "*",
+        "matthiasmullie/minify": "*"
     }
 }

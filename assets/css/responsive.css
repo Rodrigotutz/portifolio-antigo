@@ -1,9 +1,0 @@
-@media(max-width: 600px){
-    .divider svg{
-        height: 300px !important;
-    }
-    .background-contact{
-        background-size: cover !important;
-        background-position: 25%;
-    }
-}

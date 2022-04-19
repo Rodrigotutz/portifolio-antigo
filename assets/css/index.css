@@ -1,6 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #273036;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*** Texto ****/
+.texto-preto {
+    color: var(--preto);
+}
+
+.texto-branco {
+    color: var(--branco);
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.medio-escuro {
+    font-weight: 500;
+}
+
+/* backgroud */
+
+.bg-escuro {
+    background-color: var(--bg-escuro);
+}
+
+.noto{
+    font-family: 'Noto Serif', serif;
+}
+
+.noto-italic{
+    font-style: italic;
+}
+.poppins{
+    font-family:'Poppins';
+}
+
+.pre-load{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(46, 45, 45) !important;     
+    z-index: 10000;
+}
+
+.pre{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10000;
+}
+
+.pre img{
+    width: 80px;
+    height: 80px;
+}
+
+.modal-content {
+    width: 300px;
+    float: right;
+}
+
+.active {
+    background-color: #000 !important;
+    border: none;
+}
+
 .ola{
     margin-bottom:  -0.5em !important;
 }
+
 .suadacao{
     margin-bottom: 0.3em !important;
 }
@@ -93,5 +188,85 @@
     padding: 20px;
 }
 
+/** FOOTER **/
+#footer-content{
+    width: 100%;
+    text-align: center;
+    padding: 2rem !important;
+}
+#footer-content a {
+    transition: 0.5s;
+}
+#footer-content a:hover{
+    color: #868686;
+}
 
+.social-midias-modal{
+    width: 65%;
+    margin-bottom: -1em;
+}
+.social-midias-modal a {
+    transition: 0.5s;
+}
+
+.social-midias-modal a:hover{
+    transform: scale(1.2);
+}
+
+.social-midias-modal a i{
+    font-size: 1.3em !important;
+}
+
+
+.anime-item{
+    opacity: 0;
+    transform: translate3d(-150px,0,0);
+    transition: 1.2s ;
+}
+
+.anime-img{
+    opacity: 0;
+    transform: translate3d(150px,0,0);
+    transition: 1.2s ;
+}
+.sobre-content{
+    opacity: 0;
+    transform: translate3d(-300px, 0 ,0);
+    transition: 0.8s;
+}
+
+.card-item-1{
+    opacity: 0;
+    transform: translate3d(-300px, 0, 0 );
+    transition: 1s;
+}
+
+.card-item-2{
+    opacity: 0;
+    transition: 2s;
+}
+
+.card-item-3{
+    opacity: 0;
+    transform: translate3d(300px, 0, 0);
+    transition: 1s;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+
+
+@media(max-width: 600px){
+    .divider svg{
+        height: 300px !important;
+    }
+    .background-contact{
+        background-size: cover !important;
+        background-position: 25%;
+    }
+}
 

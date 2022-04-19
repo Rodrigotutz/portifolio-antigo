@@ -1,13 +1,14 @@
+<?php require __DIR__ . "/vendor/autoload.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <title>Rodrigo Antunes</title>
         <!--SEO-->
-        <meta property="og:title" content="Rodrigo tutz" />
+        <meta property="og:title" content="Rodrigo tutz"/>
         <meta property="og:description" content="Portifólio de Rodrigo Antunes">
-        <meta property="og:url" content="https://github.com/Rodrigotutz" />
+        <meta property="og:url" content="https://github.com/Rodrigotutz"/>
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/77134687?s=400&u=481bc930b592b0d35790cd290d9a3429b5b14b9d&v=4" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website"/>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,23 +18,13 @@
         <meta name="keywords" content="sites, web, desenvolvimento">
         <meta http-equiv="cache-control" content="no-cache">
         <meta http-equiv="content-language" content="pt-br">
-        <meta name="copyright" content="© 2022 Rodrigo Antunes" />
+        <meta name="copyright" content="© 2022 Rodrigo Antunes"/>
         <meta name="robots" content="index">
         
-        <link rel="stylesheet" href="/assets/css/preload.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/index.css">
-        <link rel="stylesheet" href="/assets/css/animate.css">
-        <link rel="stylesheet" href="/assets/css/classes.css">
-        <link rel="stylesheet" href="/assets/css/colors.css">
-        <link rel="stylesheet" href="/assets/css/colors.css">
-        <link rel="stylesheet" href="/assets/css/default.css">
-        <link rel="stylesheet" href="/assets/css/navbar.css">
-        <link rel="stylesheet" href="/assets/css/responsive.css">
-        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/style.min.css">
     </head>
     <body onload="loading()">
 
@@ -89,7 +80,7 @@
             <div class="row mt-5">
                 <div class="anime-item col-md-6 col-sm-12 text-center mt-5">
                     <h1 class="display-2 poppins ola fw-bold">Olá!</h1>
-                    <h1 class="display-4 poppins fw-bold suadacao">Eu Sou o Tutz!</h1>
+                    <h1 class="display-4 poppins mt-3 fw-bold suadacao">Eu Sou o Tutz!</h1>
                     <h5 class="noto-italic suadacao fw-bold">Desenvolvedor Web</h5>
                     <a href="./assets/docs/Rodrigo Antunes.pdf" class="btn btn-dark mt-3 poppins suadacao fw-bold" download>Baixar CV</a>
                 </div>
@@ -242,7 +233,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <script src="./assets/js/jquery-3.6.0.min.js"></script>
         <script src="./assets/js/jquery.mask.min.js"></script>
-        <script src="./assets/js/index.js"></script>
-        <script src="./assets/js/anime.js"></script>
+        <script src="/assets/scripts.min.js"></script>
     </body>
 </html>
