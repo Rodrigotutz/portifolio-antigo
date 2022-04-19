@@ -21,12 +21,20 @@
         <!--<meta http-equiv="refresh" content="15"/>-->
         <!--ROBOTS-->
         <meta name="robots" content="index">
+        <link rel="stylesheet" href="/assets/css/preload.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/minify.css">
         <link rel="stylesheet" href="/assets/css/index.css">
+        <link rel="stylesheet" href="/assets/css/animate.css">
+        <link rel="stylesheet" href="/assets/css/classes.css">
+        <link rel="stylesheet" href="/assets/css/colors.css">
+        <link rel="stylesheet" href="/assets/css/colors.css">
+        <link rel="stylesheet" href="/assets/css/default.css">
+        <link rel="stylesheet" href="/assets/css/navbar.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
     </head>
     <body onload="loading()">
 
@@ -105,6 +113,7 @@
         </div>
 
         <section  id="sobre">
+
             <div class="sobre-section shadow-lg">
                 <div class="container sobre-content">
                     <h3 class="text-white text-center pt-5"><span class="display-6"> Olá! 😁</span><br> Meu nome é Rodrigo.</h3>
@@ -119,6 +128,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="skills" id="habilidades">
                 <div class="container">
                     <h2 class="text-center text-white mb-5">Habilidades:</h2>
@@ -166,6 +176,11 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+
+            </div>
+            
         </section>
 
         <section id="contato">
@@ -219,7 +234,7 @@
         <?php } ?>  
 
         <footer id="footer-content" class="texto-dark mt-5">
-            <span class="text-muted"> Desenvolvido por mim &copy; Rodrigo TUTZ</span> <br> 
+            <span class="text-muted"> Desenvolvido por &copy; Rodrigo TUTZ</span> <br> 
             <small class="text-muted">Feito com</small> <a href="https://getbootstrap.com/" target="_blank" class="text-muted">Bootstrap <img src="/assets/img/bootstrap-logo.svg" style="width: 25px;" class="img-fluid" alt="Bootstrap"></a>
         </footer>  
 
@@ -228,6 +243,7 @@
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/jquery-3.6.0.min.js"></script>
         <script src="./assets/js/jquery.mask.min.js"></script>
-        <script src="/assets/js/minify.js"></script>
+        <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/anime.js"></script>
     </body>
 </html>
