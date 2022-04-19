@@ -18,12 +18,11 @@
         <meta http-equiv="cache-control" content="no-cache">
         <meta http-equiv="content-language" content="pt-br">
         <meta name="copyright" content="© 2022 Rodrigo Antunes" />
-        <!--<meta http-equiv="refresh" content="15"/>-->
-        <!--ROBOTS-->
         <meta name="robots" content="index">
+        
         <link rel="stylesheet" href="/assets/css/preload.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/index.css">
@@ -239,8 +238,8 @@
         </footer>  
 
         <!-- SCRIPTS -->
-        <script src="./assets/js/bootstrap.min.js"></script>
-        <script src="./assets/js/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <script src="./assets/js/jquery-3.6.0.min.js"></script>
         <script src="./assets/js/jquery.mask.min.js"></script>
         <script src="./assets/js/index.js"></script>
