@@ -103,3 +103,12 @@ $(document).scroll(function(){
     animeCard2();
     animeCard3();
 })
+
+var btnVerMais = document.getElementById("ver-mais-btn")
+var verMaisDiv = document.getElementById('ver-mais')
+
+btnVerMais.addEventListener("click", function(){
+    btnVerMais.style.display = "none";
+    verMaisDiv.classList.remove('ver-mais')
+    verMaisDiv.classList.add('show-ver-mais')
+})

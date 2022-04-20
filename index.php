@@ -3,7 +3,6 @@
 <html lang="pt-br">
     <head>
         <title>Rodrigo Antunes</title>
-        <!--SEO-->
         <meta property="og:title" content="Rodrigo tutz"/>
         <meta property="og:description" content="Portifólio de Rodrigo Antunes">
         <meta property="og:url" content="https://github.com/Rodrigotutz"/>
@@ -106,7 +105,7 @@
 
             <div class="sobre-section shadow-lg">
                 <div class="container sobre-content">
-                    <h3 class="text-white text-center pt-5"><span class="display-6"> Olá! 😁</span><br> Meu nome é Rodrigo.</h3>
+                    <h3 class="text-white text-center pt-5"><span class="display-6"> Olá!</span><br> Meu nome é Rodrigo.</h3>
                     <h5 class="text-white text-center">É um prazer te conhecer! </h5>
                     <p class="mt-5 text-center text-white">
                             Desenvolvedor Fullstack PHP há 2 anos, atualmente trabalho remotamente como freelancer. <br>
@@ -123,9 +122,8 @@
                 <div class="container">
                     <h2 class="text-center text-white mb-5">Habilidades:</h2>
                     <div class="row">
-                        
-                        <div class="col-md-4 mt-2">
-                            <div class="card card-item-1 shadow" style="height: 400px;">
+                        <div class="col-md-3 mt-2">
+                            <div class="card card-div card-item-1 shadow" style="height: 400px;">
                                 <div class="card-body text-center">
                                     <img src="/assets/img/paleta-de-cores.png" style="width: 50px;" class="img-fluid mb-2 mt-3" alt="Designer">
                                     <h3 class="card-title">Designer</h3>
@@ -135,9 +133,21 @@
                                 </div>
                               </div>
                         </div>
+
+                        <div class="col-md-3 mt-2">
+                            <div class="card card-div card-item-2 shadow" style="height: 400px;">
+                                <div class="card-body text-center">
+                                    <img src="/assets/img/gears.png" style="width: 50px;" class="img-fluid mb-2 mt-3" alt="Designer">
+                                    <h3 class="card-title">SEO</h3>
+                                    <h6 class="card-subtitle mt-3">Otimização para os motores de busca, anúncios e geração de leads</h6> <br>
+                                    <span class="fw-bold">Ferramentas</span>
+                                    <p class="mt-1">Google Ads, Facebook Ads, SEO Optimization </p>
+                                </div>
+                              </div>
+                        </div>
     
-                        <div class="col-md-4 mt-2">
-                            <div class="card card-item-2 shadow" style="height: 400px;">
+                        <div class="col-md-3 mt-2">
+                            <div class="card card-div card-item-2 shadow" style="height: 400px;">
                                 <div class="card-body text-center">
                                     <img src="/assets/img/front.png" style="width: 50px;" class="img-fluid mb-2 mt-3" alt="Front end">
                                     <h3 class="card-title">Front End</h3>
@@ -150,8 +160,8 @@
                               </div>
                         </div>
     
-                        <div class="col-md-4 mt-2">
-                            <div class="card card-item-3 shadow" style="height: 400px;">
+                        <div class="col-md-3 mt-2">
+                            <div class="card card-div card-item-3 shadow" style="height: 400px;">
                                 <div class="card-body text-center">
                                     <img src="/assets/img/icon-desenvolvimento.png" style="width: 50px;" class="img-fluid mb-2 mt-3" alt="Back end">
                                     <h3 class="card-title">Back-end</h3>
@@ -167,8 +177,100 @@
                 </div>
             </div>
 
-            <div>
+            <div class="container" id="certificacoes">
+                <h2 class="text-center text-dark mb-5">Certificações:</h2>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="/assets/docs/certificado-fullstack.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <div class="card-body">
+                                <h5 class="card-title">Fullstack PHP</h5>
+                                <small>Udemy - Concluído em: 26/10/2021</small>
+                                <p class="card-text">Desenvolvimento Web completo 2021 - 20 cursos + 20 projetos</p>
+                                <div class="text-center">
+                                    <a href="https://www.udemy.com/certificate/UC-b8e5410c-5142-40e9-a0ed-36d9b8218791/" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="/assets/docs/certificado-laravel.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Latavel, Vue.js</h5>
+                                <small>Udemy - Concluído em: 20/04/2022</small>
+                                <p class="card-text">Desenvolvimento Web avançado 2022 com PHP, Laravel e Vue.js</p>
+                                <div class="text-center">
+                                    <a href="https://www.udemy.com/certificate/UC-1f35aa10-8f19-4068-89d9-3a0d805aca74/" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="/assets/docs/certificado-photoshop.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Designer Gráfico Photoshop</h5>
+                                <small>Udemy - Concluído em: 13/01/2022</small>
+                                <p class="card-text">Curso Designer Gráfico Completo</p>
+                                <div class="text-center">
+                                    <a href="https://www.udemy.com/certificate/UC-b391112e-1de5-40d7-8384-d10c0788c7d8/" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button class="btn btn-secondary" id="ver-mais-btn">Ver Todos os certificados</button>
+                    </div>
+
+                    <div class="row ver-mais" id="ver-mais">
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="/assets/docs/curso-adobe-xd.jpg" class="card-img-top rounded-3" alt="Certificação Adobe XD">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso Adobe XD</h5>
+                                    <small>Danki Code - Carga horária 3h</small>
+                                    <p class="card-text">Designer de Apps Adobe XD</p>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/certificados?view=8302" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="/assets/docs/curso-de-php.jpg" class="card-img-top rounded-3" alt="Certificação PHP">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso PHP Jedai</h5>
+                                    <small>Danki Code - Carga horária 27h</small>
+                                    <p class="card-text">Designer de Apps Adobe XD</p>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/certificados?view=9125" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="/assets/docs/curso-javascript.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso Javascript Completo</h5>
+                                    <small>Danki Code - Carga horária 14h</small>
+                                    <p class="card-text">Curso Javascript puro</p>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/certificados?view=8271" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             
         </section>

@@ -146,12 +146,21 @@ a {
 
 .skills{
     margin-top: -13rem;
+    margin-bottom: 5rem;
 }
 
-.card {
+.card-div {
     border-radius: 25px !important;
 }
-
+ #ver-mais{
+     transition: 1s;
+ }
+.ver-mais{
+    display: none;
+}
+.show-ver-mais{
+    display: flex;
+}
 /** Contato **/
 #contato{
     margin-top: 7rem;
