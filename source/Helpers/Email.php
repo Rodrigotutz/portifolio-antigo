@@ -30,34 +30,22 @@ class Email{
         $this->mail->Password = MAIL["passwd"];
     }
 
-    public function add(string $subject,string $body, string $recipient_name ,string $recipient_email, string $replay_email): Email{
+    public function add(string $subject,string $body): Email{
         $this->data->subject = $subject;
         $this->data->body = $body;
-        $this->data->recipient_name = $recipient_name;
-        $this->data->recipient_email = $recipient_email;
-        $this->data->reply_to = $replay_email;
+        $this->data->recipient_name = MAIL['from_name'];
+        $this->data->recipient_email = MAIL['from_email'];
         return $this;
     }
 
-    public function attach(string $filepath, string $filename): Email {
-        $this->data->attach[$filepath] = $filename;
-        return $this;
-    }
 
-    public function send(string $from_name = MAIL["from_name"], string $from_email = MAIL["from_email"]): bool{
+    public function send(string $from_name = Mensagem_contato['nome'], string $from_email = Mensagem_contato['email']): bool{
 
         try{
             $this->mail->Subject = $this->data->subject;
             $this->mail->msgHTML($this->data->body);
             $this->mail->addAddress($this->data->recipient_email, $this->data->recipient_name);
             $this->mail->setFrom($from_email, $from_name);
-            $this->mail->addAddress($this->data->reply_to);
-
-            if(!empty($this->data->attach)){
-                foreach($this->data->attach as $path => $name){
-                    $this->mail->addAttachment($path, $name);
-                }
-            }
 
             $this->mail->send();
             return true;

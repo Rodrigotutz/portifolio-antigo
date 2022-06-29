@@ -1,10 +1,11 @@
 <?php
 /** @var PHPMailer */
 define("MAIL", [
-    "host" => "smtp.gmail.com",
+    "host" => "smtp-relay.sendinblue.com",
     "port" => "587",
-    "user" => "contatorodtutz@gmail.com",
-    "passwd" => "Leaodejuda7988",
+    "user" => "rodrigoantunestutz@gmail.com",
+    "passwd" => "6pdXPkzvrDEsw0tN",
     "from_name" => "Rodrigo Antunes",
     "from_email" => "contatorodtutz@gmail.com"
 ]);
+

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Rodrigo Antunes</title>
+        <title>Rodrigo TUTZ</title>
         <meta property="og:title" content="Rodrigo tutz"/>
         <meta property="og:description" content="Portifólio de Rodrigo Antunes">
         <meta property="og:url" content="https://github.com/Rodrigotutz"/>
@@ -52,12 +52,23 @@
                     <div class="modal-body text-center">
                         <img src="./assets/img/perfil.jpg" style="border-radius: 50%;" class="w-50" alt="Rodrigo Antunes">
                         <h4>Rodrigo TUTZ</h4>
-                        <div class="list-group text-center">
-                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#home" role="tab" aria-controls="home"><i class="bi bi-house-fill"></i> Inicio</a>
-                            <a class="list-group-item list-group-item-action" id="list-about-list" data-bs-toggle="list" href="#about" role="tab" aria-controls="about"><i class="bi bi-file-person-fill"></i> Sobre</a>
-                            <a class="list-group-item list-group-item-action" id="list-works-list" data-bs-toggle="list" href="#skills" role="tab" aria-controls="skills"><i class="bi bi-bookmark-star-fill"></i> Habilidades</a>
-                            <a class="list-group-item list-group-item-action" id="list-contact-list" data-bs-toggle="list" href="#contact" role="tab" aria-controls="contact"><i class="bi bi-telephone-fill"></i> Contato</a>
-                          </div>
+                            <ul class="navbar-nav nav-modal text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link leelawadee text-dark" href="#home">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link leelawadee text-dark" href="#about">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link leelawadee text-dark" href="#skills">Habilidades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link leelawadee text-dark" href="#certificate">Certificados</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link leelawadee text-dark" href="#contact">Contato</a>
+                                </li>
+                            </ul>
                     </div>
                     <div class="modal-footer text-center">
                         <footer class="container-fluid">
@@ -75,7 +86,7 @@
             </div>
         </div>
 
-        <section class="container" id="inicio">
+        <section class="container" id="home">
             <div class="row mt-5">
                 <div class="anime-item col-md-6 col-sm-12 text-center mt-5">
                     <h1 class="display-2 poppins ola fw-bold">Olá!</h1>
@@ -101,7 +112,7 @@
             </svg>
         </div>
 
-        <section  id="sobre">
+        <section  id="about">
 
             <div class="sobre-section shadow-lg">
                 <div class="container sobre-content">
@@ -118,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="skills" id="habilidades">
+            <div class="skills" id="skills">
                 <div class="container">
                     <h2 class="text-center text-white mb-5">Habilidades:</h2>
                     <div class="row">
@@ -177,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="container" id="certificacoes">
+            <div class="container" id="certificate">
                 <h2 class="text-center text-dark mb-5">Certificações:</h2>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-4 mt-3">
@@ -275,7 +286,7 @@
             
         </section>
 
-        <section id="contato">
+        <section id="contact">
             <h1 class="text-center fw-bold">Fale Comigo</h1>
             <p class="text-center">Para ter mais informações ou enviar uma mensagem, preencha os dados no formulário abaixo:</p>
             <div class="background-contact mt-5">
@@ -296,7 +307,7 @@
                                 
                                 <div class="mb-3">
                                     <label for="telefone" class="form-label"> Insira seu telefone:</label>
-                                    <input type="text" name="telefone" id="telefone" class="form-control text-center" required>
+                                    <input type="tel" name="telefone" id="telefone" class="form-control text-center" required>
                                 </div>
 
                                 <div class="mb-3">
