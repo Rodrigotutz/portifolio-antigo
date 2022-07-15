@@ -20,6 +20,7 @@
         <meta name="copyright" content="© 2022 Rodrigo Antunes"/>
         <meta name="robots" content="index">
         
+        <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/css/normalize.css">
@@ -92,7 +93,7 @@
                     <h1 class="display-2 poppins ola fw-bold">Olá!</h1>
                     <h1 class="display-4 poppins mt-3 fw-bold suadacao">Eu Sou o Tutz!</h1>
                     <h5 class="noto-italic suadacao fw-bold">Desenvolvedor Web</h5>
-                    <a href="./assets/docs/Rodrigo Antunes.pdf" class="btn btn-dark mt-3 poppins suadacao fw-bold" download>Baixar CV</a>
+                    <a href="http://encurtador.com.br/fijsv" class="btn btn-dark mt-3 poppins suadacao fw-bold" target="_blank" ><i class="bi bi-whatsapp"></i> Whatsapp</a>
                 </div>
                 <div class="anime-img col-md-6 d-none d-md-block mt-2 text-center">
                     <img src="./assets/img/anime-img.svg" class="w-100" style="border-radius: 50%;" alt="Rodrigo">

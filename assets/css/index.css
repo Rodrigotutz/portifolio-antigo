@@ -278,5 +278,9 @@ a {
         background-size: cover !important;
         background-position: 25%;
     }
+    .mensagem-conteudo {
+        height: 250px;
+        width: 100%;
+    }
 }
 
