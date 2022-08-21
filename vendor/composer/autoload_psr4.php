@@ -10,4 +10,6 @@ return array(
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'MatthiasMullie\\PathConverter\\' => array($vendorDir . '/matthiasmullie/path-converter/src'),
     'MatthiasMullie\\Minify\\' => array($vendorDir . '/matthiasmullie/minify/src'),
+    'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
+    'CoffeeCode\\Router\\' => array($vendorDir . '/coffeecode/router/src'),
 );

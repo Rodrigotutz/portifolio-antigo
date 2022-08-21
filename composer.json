@@ -18,12 +18,14 @@
             "Source\\": "source/"
         },
         "files": [
-            "source/Config.php",
-            "source/Minify.php"
+            "source/Minify.php",
+            "source/Config.php"
         ]
     },
     "require": {
         "phpmailer/phpmailer": "*",
-        "matthiasmullie/minify": "*"
+        "matthiasmullie/minify": "*",
+        "coffeecode/router": "1.0.8",
+        "league/plates": "3.4.0"
     }
 }

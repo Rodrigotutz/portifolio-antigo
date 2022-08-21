@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'bda1852e123c2b1513779939e182b8ca' => $baseDir . '/source/Config.php',
     'afbc643165bed459ef42ce7336432db0' => $baseDir . '/source/Minify.php',
+    'bda1852e123c2b1513779939e182b8ca' => $baseDir . '/source/Config.php',
 );
