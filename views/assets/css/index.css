@@ -104,6 +104,10 @@ a {
     width: 110%;
 }
 
+.divider-page {
+    padding: 3rem 0;
+}
+
 .wave-1{
     animation: moveWave1 3s  ease-in-out infinite alternate;
 }

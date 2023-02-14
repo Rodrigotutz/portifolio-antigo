@@ -101,16 +101,17 @@
                 </div>
             </div>
 
+            <div class="divider-page"></div>
+
             <div class="container" id="certificate">
-                <h2 class="text-center text-dark mb-5">Certificações:</h2>
+                <h1 class="display-4 fw-bold text-center text-dark mb-5 pt-5">Certificados:</h1>
                 <div class="row d-flex justify-content-center">
+
                     <div class="col-md-4 mt-3">
                         <div class="card">
-                            <img src="<?=URL?>/views/assets/docs/certificado-fullstack.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <img src="<?=URL?>/views/assets/docs/udemy/certificado-fullstack.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
                             <div class="card-body">
                                 <h5 class="card-title">Fullstack PHP</h5>
-                                <small>Udemy - Concluído em: 26/10/2021</small>
-                                <p class="card-text">Desenvolvimento Web completo 2021 - 20 cursos + 20 projetos</p>
                                 <div class="text-center">
                                     <a href="https://www.udemy.com/certificate/UC-b8e5410c-5142-40e9-a0ed-36d9b8218791/" target="_blank" class="btn btn-dark">Ver certificado</a>
                                 </div>
@@ -120,11 +121,9 @@
 
                     <div class="col-md-4 mt-3">
                         <div class="card">
-                            <img src="<?=URL?>/views/assets/docs/certificado-laravel.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <img src="<?=URL?>/views/assets/docs/udemy/certificado-laravel.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
                             <div class="card-body">
-                                <h5 class="card-title">Curso Latavel, Vue.js</h5>
-                                <small>Udemy - Concluído em: 20/04/2022</small>
-                                <p class="card-text">Desenvolvimento Web avançado 2022 com PHP, Laravel e Vue.js</p>
+                                <h5 class="card-title">Curso Laravel, Vue.js</h5>
                                 <div class="text-center">
                                     <a href="https://www.udemy.com/certificate/UC-1f35aa10-8f19-4068-89d9-3a0d805aca74/" target="_blank" class="btn btn-dark">Ver certificado</a>
                                 </div>
@@ -134,11 +133,33 @@
 
                     <div class="col-md-4 mt-3">
                         <div class="card">
-                            <img src="<?=URL?>/views/assets/docs/certificado-photoshop.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <img src="<?=URL?>/views/assets/docs/udemy/vue-js+vite.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Vue.js Composition API</h5>
+                                <div class="text-center">
+                                    <a href="https://www.udemy.com/certificate/UC-0a90570a-3cf0-4aba-af70-ee499195700d/" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/udemy/Quasar-vue-2.jpg" class="card-img-top rounded-3" alt="Certificação FullStack">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Quasar + Vue.js-2</h5>
+                                <div class="text-center">
+                                    <a href="https://www.udemy.com/certificate/UC-a5016ded-4a43-4b1f-9d3d-3d7c4a66e609/" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/udemy/certificado-photoshop.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
                             <div class="card-body">
                                 <h5 class="card-title">Curso Designer Gráfico Photoshop</h5>
-                                <small>Udemy - Concluído em: 13/01/2022</small>
-                                <p class="card-text">Curso Designer Gráfico Completo</p>
                                 <div class="text-center">
                                     <a href="https://www.udemy.com/certificate/UC-b391112e-1de5-40d7-8384-d10c0788c7d8/" target="_blank" class="btn btn-dark">Ver certificado</a>
                                 </div>
@@ -146,20 +167,91 @@
                         </div>
                     </div>
 
-                    <div class="text-center mt-4">
-                        <button class="btn btn-secondary" id="ver-mais-btn">Ver Todos os certificados</button>
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/upinside/wordpress.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Wordpress Essentials</h5>
+                                <div class="text-center">
+                                    <a href="https://www.upinside.com.br/certificados/6583867202302" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/upinside/docker.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Ambiente local com Docker</h5>
+                                <div class="text-center">
+                                    <a href="https://www.upinside.com.br/certificados/6583870202301" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/upinside/sass.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso CSS produtivo com SASS</h5>
+                                <div class="text-center">
+                                    <a href="https://www.upinside.com.br/certificados/6583869202301" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <img src="<?=URL?>/views/assets/docs/upinside/composer.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso Composer na prática</h5>
+                                <div class="text-center">
+                                    <a href="https://www.upinside.com.br/certificados/6583856202301" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5 pt-5"  id="ver-mais-btn">
+                        <button class="btn btn-dark">Ver Todos os certificados</button>
                     </div>
 
                     <div class="row ver-mais" id="ver-mais">
+
                         <div class="col-md-4 mt-3">
                             <div class="card">
-                                <img src="<?=URL?>/views/assets/docs/curso-adobe-xd.jpg" class="card-img-top rounded-3" alt="Certificação Adobe XD">
+                                <img src="<?=URL?>/views/assets/docs/upinside/bootstrap.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso Bootstrap Builder</h5>
+                                    <div class="text-center">
+                                        <a href="https://www.upinside.com.br/certificados/6583864202302" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/upinside/git.jpg" class="card-img-top rounded-3" alt="Certificação Photoshop">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso GIT Workflow</h5>
+                                    <div class="text-center">
+                                        <a href="https://www.upinside.com.br/certificados/6583848202301" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/adobe-xd.jpg" class="card-img-top rounded-3" alt="Certificação Adobe XD">
                                 <div class="card-body">
                                     <h5 class="card-title">Curso Adobe XD</h5>
-                                    <small>Danki Code - Carga horária 3h</small>
-                                    <p class="card-text">Designer de Apps Adobe XD</p>
                                     <div class="text-center">
-                                        <a href="https://cursos.dankicode.com/certificados?view=8302" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                        <a href="https://cursos.dankicode.com/api/certificados/0579064d-2693-47fb-b9b9-893e866dfec0" target="_blank" class="btn btn-dark">Ver certificado</a>
                                     </div>
                                 </div>
                             </div>
@@ -167,13 +259,11 @@
 
                         <div class="col-md-4 mt-3">
                             <div class="card">
-                                <img src="<?=URL?>/views/assets/docs/curso-de-php.jpg" class="card-img-top rounded-3" alt="Certificação PHP">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/php-jedai.jpg" class="card-img-top rounded-3" alt="Certificação PHP">
                                 <div class="card-body">
                                     <h5 class="card-title">Curso PHP Jedai</h5>
-                                    <small>Danki Code - Carga horária 27h</small>
-                                    <p class="card-text">Designer de Apps Adobe XD</p>
                                     <div class="text-center">
-                                        <a href="https://cursos.dankicode.com/certificados?view=9125" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                        <a href="https://cursos.dankicode.com/api/certificados/02a1991a-1b23-4e83-a30e-c2921bb3d7cc" target="_blank" class="btn btn-dark">Ver certificado</a>
                                     </div>
                                 </div>
                             </div>
@@ -181,17 +271,64 @@
 
                         <div class="col-md-4 mt-3">
                             <div class="card">
-                                <img src="<?=URL?>/views/assets/docs/curso-javascript.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/javascript.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
                                 <div class="card-body">
                                     <h5 class="card-title">Curso Javascript Completo</h5>
-                                    <small>Danki Code - Carga horária 14h</small>
-                                    <p class="card-text">Curso Javascript puro</p>
                                     <div class="text-center">
-                                        <a href="https://cursos.dankicode.com/certificados?view=8271" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                        <a href="https://cursos.dankicode.com/api/certificados/57be6b97-11e8-4083-9d14-5c06dce49ed3" target="_blank" class="btn btn-dark">Ver certificado</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/logica-de-programacao.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso Lógica de Programação</h5>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/api/certificados/d15ae071-f9e2-4fd4-9864-b5650a0795a5" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/ingles-para-programadores.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso Inglês para Programadores</h5>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/api/certificados/ada4fd0e-b09f-4d60-96b7-27bf2b969ccb" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/marketing-para-programadores.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <div class="card-body">
+                                    <h6 class="card-title">Curso Marketing Digital para Programadores</h6>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/api/certificados/f33e7991-2537-4751-9564-1ca50a364973" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-3">
+                            <div class="card">
+                                <img src="<?=URL?>/views/assets/docs/dankicode/produtividade-para-programadores.jpg" class="card-img-top rounded-3" alt="Certificação Javascript">
+                                <div class="card-body">
+                                    <h6 class="card-title">Curso Produtividade para Programadores</h6>
+                                    <div class="text-center">
+                                        <a href="https://cursos.dankicode.com/api/certificados/bf1cd0e9-f4a4-4fee-a972-7a6b7ad64344" target="_blank" class="btn btn-dark">Ver certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -199,8 +336,10 @@
             
         </section>
 
+        <div class="divider-page"></div>
+
         <section id="contact">
-            <h1 class="text-center fw-bold">Fale Comigo</h1>
+            <h1 class="display-4 fw-bold pt-5 text-center fw-bold">Fale Comigo</h1>
             <p class="text-center">Para ter mais informações ou enviar uma mensagem, preencha os dados no formulário abaixo:</p>
             <div class="background-contact mt-5">
                 <div class="row">
