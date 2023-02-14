@@ -5,7 +5,7 @@
         <meta property="og:title" content="Rodrigo tutz"/>
         <meta property="og:description" content="Portifólio de Rodrigo Antunes">
         <meta property="og:url" content="https://github.com/Rodrigotutz"/>
-        <meta property="og:image" content="https://avatars.githubusercontent.com/u/77134687?s=400&u=481bc930b592b0d35790cd290d9a3429b5b14b9d&v=4" />
+        <meta property="og:image" content="https://i.imgur.com/2fhzjTr.jpg" />
         <meta property="og:type" content="website"/>
 
         <meta charset="UTF-8">
