@@ -2,7 +2,7 @@
 
 <a align="center" href="https://rodrigotutz.com">Ver Projeto</a>
 
-# Instalar dependências
+### Instalar dependências
 ```shell
     composer install
 ```
