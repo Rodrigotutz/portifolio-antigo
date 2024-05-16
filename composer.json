@@ -18,14 +18,20 @@
             "Source\\": "source/"
         },
         "files": [
-            "source/Minify.php",
-            "source/Config.php"
+            "source/Config.php",
+            "source/Helpers/DotEnv.php",
+            "source/Helpers/Helpers.php"
         ]
     },
     "require": {
         "phpmailer/phpmailer": "*",
         "matthiasmullie/minify": "*",
-        "coffeecode/router": "1.0.8",
-        "league/plates": "3.4.0"
+        "coffeecode/router": "*",
+        "league/plates": "3.4.0",
+        "vlucas/phpdotenv": "^5.6",
+        "rodrigotutz/controller": "^1.6"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
     }
 }

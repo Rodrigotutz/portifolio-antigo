@@ -112,3 +112,9 @@ btnVerMais.addEventListener("click", function(){
     verMaisDiv.classList.remove('ver-mais')
     verMaisDiv.classList.add('show-ver-mais')
 })
+
+
+setTimeout(() => {
+    let msgComponent = document.querySelector(".messages")
+    msgComponent.style="display:none"
+},5000)

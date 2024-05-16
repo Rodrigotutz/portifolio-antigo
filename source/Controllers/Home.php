@@ -2,15 +2,13 @@
 
 namespace Source\Controllers;
 
-use League\Plates\Engine;
+use Rodrigotutz\Controller;
 use Source\Helpers\Email;
 
-class Home {
+class Home extends Controller {
 
-    private $view;
-
-    public function __construct() {
-        $this->view = new Engine(__DIR__."/../../views", "php");
+    public function __construct($router) {
+        parent::__construct($router, dirname(__DIR__, 2). "/views");
     }
 
     public function home(): void {
@@ -21,11 +19,20 @@ class Home {
     }
 
     public function send($data): void {
-        if(!isset($data["acao"])){
-            header("location: /?erro=negado");
+
+        $name = filter_var($data['nome'], FILTER_DEFAULT);
+        $email = filter_var($data['email'], FILTER_VALIDATE_EMAIL);
+        $message = filter_var($data['mensagem'], FILTER_DEFAULT);
+        $phone = filter_var($data['telefone'], FILTER_DEFAULT);
+
+        if(!$name || !$email || !$message || !$phone) {
+            $this->router->redirect("home.home", [
+                'error' => 'invalid-fields'
+            ]);
         }
         
-        $email = new Email();
+        
+        /*
         $assunto = "Mensagem site Rodrigo Antunes";
         define("Mensagem_contato", [
             "nome" => $data["nome"],
@@ -34,7 +41,7 @@ class Home {
             "mensagem" => $data["mensagem"],
         ]);
 
-        $mensagem = 
+        $message = 
         "<body style='width: 100%;'>
             <div style='font-family: sans-serif; text-align:center;border-radius:25px; padding: 25px;color: #000;' >".
                 "<h1>$assunto</h1>".
@@ -47,13 +54,15 @@ class Home {
                     "<small> Desenvolvido por &copy; Rodrigo TUTZ</small> <br> 
                 </footer>
             </div>
-        </body>";
+        </body>"; 
+        */
 
-        $email->add(
-            $assunto,
-            $mensagem
-        )->send();
+        $mail = new Email(getenv("MAIL_HOST"), getenv("MAIL_PORT"), getenv("MAIL_SECURITY"), getenv("MAIL_USER"), getenv("MAIL_PASSWORD"));
+        $mail->add("E-mail portifólio", "<h1>Nome: $name <br>Email: $email <br> Telefone: $phone <br> Mensagem: $message</h1>", getenv("MAIL_NAME"), getenv("MAIL_FROM")); 
+        if(!$mail->send()) {
+            $this->router->redirect('home.home', ['error' => 'not-allowed']);
+        }
         
-        header("location: ".URL."/?sucesso=mensagem");
+        $this->router->redirect('home.home', ['sucesso' => "mensagem"]);
     }
 }
